@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3>Registration  Form</h3>
+    
+    <form action="">
+        <fieldset>
+        <legend style="color: rgb(1, 75, 75); font-size: 25px;">Personal Details</legend>
+        <label for="">Full-Name:</label><br>
+        <input type="text" name="name" id="" placeholder="Enter Your Name" required><br><br>
+        <label for="">Age</label><br>
+        <input type="number" name="age" id="" placeholder="Enter Your age"><br><br>
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" id=""> Male
+        <input type="radio" name="gender" id=""> Female
+        <input type="radio" name="gender" id=""> Other<br><br>
+
+        <label for="">Home Town</label>
+        <select name="district" id="" required>
+            <option value="">Select One</option>
+            <optgroup label="Dhaka">
+                <option>Dhaka</option>
+                <option>Gazipur</option>
+                <option>Manikganj</option>
+                <option>Narayanganj</option>
+            </optgroup>
+            <optgroup label="Barisal">
+                <option>Pirojpur</option>
+                <option>Barishal</option>
+                <option>Potuakhali</option>
+            </optgroup>
+            
+        </select>
+        
+
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend style="color: rgb(1, 75, 75); font-size: 25px;">Login Information</legend>
+        <label for="">E-mail:</label><br>
+        <input type="email" name="email" id="" placeholder="name@email.com"><br><br>
+        <label for="">Create a Password:</label><br>
+        <input type="password" name="password" id="" placeholder="Between 8 and 32 characters"><br><br>
+        <label for="">Re-type Password:</label><br>
+        <input type="password" name="re-password" id="" placeholder=""><br><br>
+    </fieldset>
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

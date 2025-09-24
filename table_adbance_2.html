@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, th, td{
+            border: 2px solid rgb(40, 109, 0);
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Details</h1>
+
+    <table>
+        <caption><strong>Product List</strong></caption>
+        <colgroup>
+            <col span="2" style="background-color: gray;" >
+            <col span="2" style="background-color: rgb(88, 113, 224);" >
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Buying Price</th>
+                <th>Selling Price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2101</td>
+                <td>Iphone</td>
+                <td>$ 680</td>
+                <td>$ 960</td>
+            </tr>
+
+            <tr>
+                <td>2123</td>
+                <td>Google Pixel</td>
+                <td>$ 350</td>
+                <td>$ 520</td>
+            </tr>
+
+            <tr>
+                <td>3205</td>
+                <td>Samsung</td>
+                <td>$ 580</td>
+                <td>$ 800</td>
+            </tr>
+
+            <tr>
+                <td>3620</td>
+                <td>Huwai</td>
+                <td>$ 455</td>
+                <td>$ 670</td>
+            </tr>
+
+            <tr>
+                <td>1253</td>
+                <td>Oppo</td>
+                <td>$ 220</td>
+                <td>$ 350</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th>$ 2305</th>
+                <th>****</th>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
